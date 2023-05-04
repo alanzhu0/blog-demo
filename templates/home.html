@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Hello World!</h1>
+        {% for post in posts %}
+            <b>{{ post.title }}</b>
+            <p>{{ post.content }}</p>
+            <br>
+            <hr>
+        {% endfor %}
+    </body>
+</html>
